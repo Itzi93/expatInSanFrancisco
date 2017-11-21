@@ -1,0 +1,112 @@
+/*General style*/
+body{
+  margin: 0 auto;
+}
+body,
+header,
+.wrapper .nav,
+.nav-item{
+  background-color: #F8F8F8;
+}
+.wrapper{
+  margin: 0 auto;
+}
+a:link, a:visited, a:hover, a:active {
+  color: #c06;
+}
+
+/*Header style*/
+.headerFixed{
+  z-index: 9;
+  position: fixed;
+}
+.navbar-brand{
+  font-size: 30px;
+}
+
+/*Hub to fix the "scroll" for the content*/
+.contentTarget{
+  padding-top: 200px;
+  margin-top: -200px;
+}
+ul{
+  margin-left: 10px;
+}
+li{
+  background-color: white;
+  padding: 10px;
+  margin-left: -20px;
+}
+
+/*Left aside style*/
+div .list-group{
+  position: fixed;
+  top: 300px;
+  left: 220px;
+  width: 160px;
+}
+.hamburgerMenu{
+  display: none;
+}
+
+/*Content Style*/
+.content{
+  padding-bottom: 70px;
+}
+
+/*Footer Style*/
+footer {
+  background-color: #E0E0E0;
+  bottom: 0px;
+  width: 100%;
+  height: 70px;
+}
+footer p{
+  padding-top: 20px;
+  text-align: center;
+}
+
+/*Media queries*/
+@media only screen and (max-width: 768px) {
+  .languagesNav{
+    flex-direction: row;
+  }
+  .navbar-brand{
+    flex: 1 0;
+    font-size: 15px;
+  }
+  .navbar-brand img{
+    width: 20px;
+    height: 20px;
+  }
+  .hamburgerMenu{
+    display: block;
+    flex: 1;
+  }
+  .mainContent{
+    display: none;
+  }
+  .topBarMenu{
+    flex: 0 1 100%;
+    justify-content: center!important;
+  }
+  .topBarMenu img{
+    width: 32px;
+  }
+  .topBarMenu a{
+    padding: 0px;
+    font-size: 10px;
+  }
+  .topBarMenu li{
+    margin-left: 0px;
+  }
+  .additionalInformation{
+    display: none;
+  }
+  .content{
+    margin-top: 100px;
+  }
+  .content img{
+    margin-bottom: 40px;
+  }
+}

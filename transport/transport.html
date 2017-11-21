@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Transport - Expat in San Francisco</title>
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
+  <!-- CSS Transport Stylesheet -->
+  <link rel="stylesheet" href="transport.css">
+  <!-- Common CSS Stylesheet -->
+  <link rel="stylesheet" href="../css/common.css">
+</head>
+<body>
+<div class="wrapper col-md-9">
+  <!-- Define the header -->
+  <header class="container headerFixed col-md-12">
+    <!-- Navbar with Bootstrap framework including logo and nav -->
+    <nav class="navbar navbar-light bg-light col-md-9 languagesNav">
+      <a class="navbar-brand" href="../index.html">
+        <img src="../images/spanish-flag.png" width="40" height="40" class="d-inline-block align-top" alt="spanishFlag">
+        <strong>Expat in San Francisco</strong>
+      </a>
+      <div class="btn-group hamburgerMenu">
+        <button type="button" class="btn btn-secondary dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+        <span class="glyphicon glyphicon-menu-hamburger">☰</span>
+        </button>
+        <div class="dropdown-menu dropdown-menu-right">
+          <button class="dropdown-item" type="button"><a href="../documentation/documentation.html">Important documentation</a></button>
+          <button class="dropdown-item" type="button"><a href="../neighborhoods/neighborhoods.html">Neighborhoods</a></button>
+          <button class="dropdown-item" type="button"><a href="../supermarkets/supermarkets.html">Supermarkets</a></button>
+          <button class="dropdown-item" type="button"><a href="../weather/weather.html">Weather</a></button>
+          <button class="dropdown-item" type="button"><a href="../touristPlaces/touristPlaces.html">Places of interest</a></button>
+          <button class="dropdown-item" type="button"><a href="../exchange/exchange.html">Exchange</a></button>
+          <button class="dropdown-item" type="button"><a href="../restaurants/restaurants.html">Restaurants</a></button>
+          <button class="dropdown-item" type="button"><a href="../holidays/holidays.html">Holidays</a></button>
+          <button class="dropdown-item" type="button"><a href="../nightLife/nightlife.html">Night Life</a></button>
+          <button class="dropdown-item" type="button"><a href="../shopping/shopping.html">Shopping</a></button>
+        </div>
+      </div>
+      <ul class="nav justify-content-end topBarMenu">
+        <li class="nav-item">
+          <img src=../images/spain-flag-waving-icon-64.png alt="changeLanguageToSpanish" class="d-inline-block">
+        </li>
+        <li class="nav-item">
+          <a class="nav-link active d-inline-block" href="#">SP</a>
+        </li>
+        <li class="nav-item">
+          <img src="../images/united-states-of-america-flag-waving-icon-64.png" alt="changeLanguageToEnglish" class="d-inline-block">
+        </li>
+        <li class="nav-item">
+          <a class="nav-link d-inline-block" href="#">EN</a>
+        </li>
+      </ul>
+    </nav>
+
+<!-- Adding principal navbar and hide when the browser is smaller -->
+    <ul class="nav justify-content-center col-md-9 mainContent">
+      <li class="nav-item">
+        <a class="nav-link active" href="../documentation/documentation.html">Important documentation</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link active" href="#">|</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="transport.html">Public transport</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link active" href="#">|</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="../neighborhoods/neighborhoods.html">Neighborhoods</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link active" href="#">|</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="../supermarkets/supermarkets.html">Supermarkets</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link active" href="#">|</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="../weather/weather.html">Weather</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link active" href="#">|</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="../touristPlaces/touristPlaces.html">Places of interest</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link active" href="#">|</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="../exchange/exchange.html">Exchange</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link active" href="#">|</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="../restaurants/restaurants.html">Restaurants</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link active" href="#">|</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="../holidays/holidays.html">Holidays</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link active" href="#">|</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="../nightLife/nightlife.html">Night Life</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link active" href="#">|</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="../shopping/shopping.html">Shopping</a>
+      </li>
+    </ul>
+  </header>
+<!-- Important content -->
+  <div class="row">
+    <section class="additionalInformation col-md-3">
+      <!-- Creating aside with interesting links -->
+      <div class="list-group">
+        <a href="#cableCar" class="list-group-item list-group-item-action">Cable Car</a>
+        <a href="#bart" class="list-group-item list-group-item-action">Bart</a>
+        <a href="#bus" class="list-group-item list-group-item-action">Bus</a>
+        <a href="#ferry" class="list-group-item list-group-item-action">Ferry</a>
+        <a href="#caltrain" class="list-group-item list-group-item-action">Caltrain</a>
+        <a href="#uberlyft" class="list-group-item list-group-item-action">Uber & Lyft</a>
+      </div>
+    </section>
+
+    <section class="content col-md-9">
+      <h2>Transport<br>in San Francisco</h2>
+      <article class="transportInformation">San Francisco is a city with an extensive public transport network. Below we show you what are the public transport methods you will find in San Francisco.</article>
+      <div class="description col-md-12">
+        <div class="row contentTarget" id="cableCar">
+          <div class="col-md-4">
+            <img src="images/cablecar.jpeg" alt="cableCar" width="250" height="150">
+          </div>
+          <div class="cableCar col-md-8">
+            <h4>Cable Car</h4>
+            <p>Cable Cars tours start at Fisherman's Wharf and go through downtown San Francisco; We recommend that you choose to get up at the stops in the middle to avoid the long queues that are generated in the port.<br>There is also a network of municipal trams (MUNI), which makes trips within the city. It includes cars of the famous cable car type and a great variety of routes at a very low price. The ticket costs $ 1.5 on regular cars and $ 5 on cable cars.</p>
+          </div>
+        </div>
+        <div class="row contentTarget" id="bart">
+          <div class="bart col-md-8">
+            <h4>BART</h4>
+            <p>It is a tram system that connects various points of the Peninsula of San Francisco with cities located to the east.</p>
+          </div>
+          <div class="col-md-4">
+            <img src="images/bart.jpeg" alt="bart" width="250" height="150">
+          </div>
+        </div>
+        <div class="row contentTarget" id="bus">
+          <div class="col-md-4">
+            <img src="images/bus.jpeg" alt="bus" width="250" height="150">
+          </div>
+          <div class="bus col-md-8">
+            <h4>Bus</h4>
+            <p>There is a wide line of buses that carry out regional and interstate journeys. It is the cheapest and most efficient means of transportation in San Francisco. Greyhound is one of the most important bus lines in San Francisco and travels throughout the Bay, connecting San Francisco with other cities in the State of California and surrounding areas.<br>Transit Golden Gate, on the other hand, is a company that makes short distance trips. Connect downtown San Francisco with Marin and Sonoma.<br>Within San Francisco is the SamTrans line that connects the different neighborhoods of the city at an affordable price ($ 1.50 costs each trip).<br>Finally, the Golden Gate Transit bus service leaves San Francisco, crosses the Golden Gate Bridge and costs $ 3.15. It also has routes to the north that reach Santa Rosa.</p>
+          </div>
+        </div>
+        <div class="row contentTarget" id="ferry">
+          <div class="ferry col-md-8">
+            <h4>Ferry</h4>
+            <p>The Golden Gate Ferry makes trips from the San Francisco Ferry Building to Larkspur and Sausalito (the ticket costs $ 7.10). From Fisherman's Wharf you can also leave at the company that is called "The Blue and Gold Fleet"; it owns boats that go to Oakland and Alameda (the ticket costs $ 5.50), to Angel Island ($ 7.25), to Sausalito, Larkspur and Tiburón (costs about $ 9.00), to Vallejo (costs $ 12.50).</p>
+          </div>
+          <div class="col-md-4">
+            <img src="images/ferry.jpeg" alt="ferry" width="250" height="150">
+          </div>
+        </div>
+        <div class="row contentTarget" id="caltrain">
+          <div class="col-md-4">
+            <img src="images/caltrain.jpeg" alt="caltrain" width="250" height="150">
+          </div>
+          <div class="caltrain col-md-8">
+            <h4>Caltrain</h4>
+            <p>To move from San Francisco to San Jose, or one of the cities that are on this route, it is best to opt for the Caltrain.It has a good value for money: the most expensive ticket costs around $ 4.</p>
+          </div>
+        </div>
+        <div class="row contentTarget" id="uberlyft">
+          <div class="uberlyft col-md-8">
+            <h4>Uber & Lyft</h4>
+            <p>Uber and Lyft are one of the best methods to move around the city. They are like taxis, much cheaper and also with the option to share it on your route to make it much cheaper.Many times it is one of the best options to save time, since the distances are very long.Also, if you invite contacts, they give you money to travel for free.</p>
+          </div>
+          <div class="col-md-4">
+            <img src="images/uberlyft.jpeg" alt="uberlyft" width="250" height="150">
+          </div>
+        </div>
+      </div>
+    </section>
+  </div>
+</div>
+  <footer class="col-md-12">
+    <p class="love">Made with &hearts; by <a href="https://github.com/Itzi93" target="_blank">Itziar Ruiz</a>.</p>
+  </footer>
+
+  <!-- Adding jQuery -->
+  <script src="../vendor/jquery-3.2.1.min.js"></script>
+
+  <!-- Adding Bootstrap -->
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js" integrity="sha384-b/U6ypiBEHpOf/4+1nzFpr53nxSS+GLCkfwBdFNTxtclqqenISfwAzpKaMNFNmj4" crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/js/bootstrap.min.js" integrity="sha384-h0AbiXch4ZDo7tp9hKZ4TsHbi047NrKGLO3SEJAg45jXxnGIfYzk4Si90RDIqNm1" crossorigin="anonymous"></script>
+
+  <!-- Adding JS file -->
+  <script src="transport.js"></script>
+</body>
+</html>

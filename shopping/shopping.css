@@ -1,0 +1,33 @@
+.content{
+  margin-top: 200px;
+  margin-left: 220px;
+}
+h2{
+  text-align: center;
+  margin-top: 15px;
+  margin-bottom: 50px;
+}
+ul{
+  text-align: justify;
+  margin-bottom: 30px;
+  list-style: none;
+}
+section img{
+  margin-left: 100px;
+  margin-bottom: 30px;
+}
+section p{
+  text-align: justify;
+  margin-bottom: 35px;
+}
+@media only screen and (max-width: 768px){
+  .content{
+    margin-top: 100px;
+    margin-left: 0px;
+  }
+  section img{
+    height: 150px;
+    width: 300px;
+    margin-left: 20px;
+  }
+}

@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Weather - Expat in San Francisco</title>
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
+  <!-- CSS Weather Stylesheet -->
+  <link rel="stylesheet" href="weather.css">
+  <!-- Common CSS Stylesheet -->
+  <link rel="stylesheet" href="../css/common.css">
+</head>
+<body>
+<div class="wrapper col-md-9">
+  <!-- Define the header -->
+  <header class="container headerFixed col-md-12">
+    <!-- Navbar with Bootstrap framework including logo and nav -->
+    <nav class="navbar navbar-light bg-light col-md-9 languagesNav">
+      <a class="navbar-brand" href="../index.html">
+        <img src="../images/spanish-flag.png" width="40" height="40" class="d-inline-block align-top" alt="spanishFlag">
+        <strong>Expat in San Francisco</strong>
+      </a>
+      <div class="btn-group hamburgerMenu">
+        <button type="button" class="btn btn-secondary dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+        <span class="glyphicon glyphicon-menu-hamburger">☰</span>
+        </button>
+        <div class="dropdown-menu dropdown-menu-right">
+          <button class="dropdown-item" type="button"><a href="../documentation/documentation.html">Important documentation</a></button>
+          <button class="dropdown-item" type="button"><a href="../neighborhoods/neighborhoods.html">Neighborhoods</a></button>
+          <button class="dropdown-item" type="button"><a href="../supermarkets/supermarkets.html">Supermarkets</a></button>
+          <button class="dropdown-item" type="button"><a href="../transport/transport.html">Weather</a></button>
+          <button class="dropdown-item" type="button"><a href="../touristPlaces/touristPlaces.html">Places of interest</a></button>
+          <button class="dropdown-item" type="button"><a href="../exchange/exchange.html">Exchange</a></button>
+          <button class="dropdown-item" type="button"><a href="../restaurants/restaurants.html">Restaurants</a></button>
+          <button class="dropdown-item" type="button"><a href="../holidays/holidays.html">Holidays</a></button>
+          <button class="dropdown-item" type="button"><a href="../nightLife/nightlife.html">Night Life</a></button>
+          <button class="dropdown-item" type="button"><a href="../shopping/shopping.html">Shopping</a></button>
+        </div>
+      </div>
+      <ul class="nav justify-content-end topBarMenu">
+        <li class="nav-item">
+          <img src=../images/spain-flag-waving-icon-64.png alt="changeLanguageToSpanish" class="d-inline-block">
+        </li>
+        <li class="nav-item">
+          <a class="nav-link active d-inline-block" href="..spanish/indexspanish.html">SP</a>
+        </li>
+        <li class="nav-item">
+          <img src="../images/united-states-of-america-flag-waving-icon-64.png" alt="changeLanguageToEnglish" class="d-inline-block">
+        </li>
+        <li class="nav-item">
+          <a class="nav-link d-inline-block" href="#">EN</a>
+        </li>
+      </ul>
+    </nav>
+    <!-- Adding principal navbar and hide when the browser is smaller -->
+    <ul class="nav justify-content-center col-md-9 mainContent">
+      <li class="nav-item">
+        <a class="nav-link active" href="../documentation/documentation.html">Important documentation</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link active" href="#">|</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="../transport/transport.html">Public transport</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link active" href="#">|</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="../neighborhoods/neighborhoods.html">Neighborhoods</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link active" href="#">|</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="../supermarkets/supermarkets.html">Supermarkets</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link active" href="#">|</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="weather.html">Weather</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link active" href="#">|</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="../touristPlaces/touristPlaces.html">Places of interest</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link active" href="#">|</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="../exchange/exchange.html">Exchange</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link active" href="#">|</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="../restaurants/restaurants.html">Restaurants</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link active" href="#">|</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="../holidays/holidays.html">Holidays</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link active" href="#">|</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="../nightLife/nightlife.html">Night Life</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link active" href="#">|</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="../shopping/shopping.html">Shopping</a>
+      </li>
+    </ul>
+  </header>
+  <!-- Important content -->
+  <div class="row">
+    <section class="additionalInformation col-md-3">
+      <!-- Creating aside with page information -->
+      <div class="list-group">
+        <a href="#winter" class="list-group-item list-group-item-action">Winter</a>
+        <a href="#spring" class="list-group-item list-group-item-action">Spring</a>
+        <a href="#summer" class="list-group-item list-group-item-action">Summer</a>
+        <a href="#fall" class="list-group-item list-group-item-action">Fall</a>
+      </div>
+    </section>
+    <!-- Content -->
+    <section class="content col-md-9">
+      <h2>How is the weather<br>in San Francisco?</h2>
+      <article class="weatherInformation">Can you imagine having the 4 seasons of the year in the same day? In San Francisco the weather changes a lot, even in hours, depending of the depending on the ocean's breezes.<br>It is very common that the city is covered by a mountain of fog in any season of the year.</article>
+      <img src="images/weather.jpeg" alt="weather" width="600" height="300">
+      <div id="winter">
+        <h4>Winter in San Francisco</h4>
+        <p>The winter in San Francisco is cold. January and February are the worst months because the temperature fluctuates between 5º and 14º. In this season when it rains most.</p>
+      </div>
+      <div id="spring">
+        <h4>Spring in San Francisco</h4>
+        <p>In spring, the climate is warm and temperatures fluctuates between 13º and 15º. In this season, the vegetation has many colors and the city looks prettier.</p>
+      </div>
+      <div id="summer">
+        <h4>Summer in San Francisco</h4>
+        <p>In summer, San Francisco is not hot, temperatures are not very high and there is always fog.</p>
+      </div>
+      <div id="fall">
+        <h4>Fall in San Francisco</h4>
+        <p>September and October are the best months in San Francisco. The temperatures are higher than the rest of the year and the sun is always up.</p>
+      </div>
+    </section>
+  </div>
+</div>
+  <footer>
+    <p class="love">Made with &hearts; by <a href="https://github.com/Itzi93" target="_blank">Itziar Ruiz</a>.</p>
+  </footer>
+
+  <!-- Adding jQuery -->
+  <script src="../vendor/jquery-3.2.1.min.js"></script>
+
+  <!-- Adding Bootstrap -->
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js" integrity="sha384-b/U6ypiBEHpOf/4+1nzFpr53nxSS+GLCkfwBdFNTxtclqqenISfwAzpKaMNFNmj4" crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/js/bootstrap.min.js" integrity="sha384-h0AbiXch4ZDo7tp9hKZ4TsHbi047NrKGLO3SEJAg45jXxnGIfYzk4Si90RDIqNm1" crossorigin="anonymous"></script>
+
+  <!-- Adding JS file -->
+  <script src="weather.js"></script>
+</body>
+</html>

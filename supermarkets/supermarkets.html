@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Supermarkets - Expat in San Francisco</title>
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
+  <!-- CSS Supermarkets Stylesheet -->
+  <link rel="stylesheet" href="supermarkets.css">
+  <!-- Common CSS Stylesheet -->
+  <link rel="stylesheet" href="../css/common.css">
+</head>
+<body>
+<div class="wrapper col-md-9">
+  <!-- Define the header -->
+  <header class="container headerFixed col-md-12">
+    <!-- Navbar with Bootstrap framework including logo and nav -->
+    <nav class="navbar navbar-light bg-light col-md-9 languagesNav">
+      <a class="navbar-brand" href="../index.html">
+        <img src="../images/spanish-flag.png" width="40" height="40" class="d-inline-block align-top" alt="spanishFlag">
+        <strong>Expat in San Francisco</strong>
+      </a>
+      <div class="btn-group hamburgerMenu">
+        <button type="button" class="btn btn-secondary dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+        <span class="glyphicon glyphicon-menu-hamburger">☰</span>
+        </button>
+        <div class="dropdown-menu dropdown-menu-right">
+          <button class="dropdown-item" type="button"><a href="../documentation/documentation.html">Important documentation</a></button>
+          <button class="dropdown-item" type="button"><a href="../neighborhoods/neighborhoods.html">Neighborhoods</a></button>
+          <button class="dropdown-item" type="button"><a href="../transport/transport.html">Transport</a></button>
+          <button class="dropdown-item" type="button"><a href="../transport/transport.html">Weather</a></button>
+          <button class="dropdown-item" type="button"><a href="../touristPlaces/touristPlaces.html">Places of interest</a></button>
+          <button class="dropdown-item" type="button"><a href="../exchange/exchange.html">Exchange</a></button>
+          <button class="dropdown-item" type="button"><a href="../restaurants/restaurants.html">Restaurants</a></button>
+          <button class="dropdown-item" type="button"><a href="../holidays/holidays.html">Holidays</a></button>
+          <button class="dropdown-item" type="button"><a href="../nightLife/nightlife.html">Night Life</a></button>
+          <button class="dropdown-item" type="button"><a href="../shopping/shopping.html">Shopping</a></button>
+        </div>
+      </div>
+      <ul class="nav justify-content-end topBarMenu">
+        <li class="nav-item">
+          <img src=../images/spain-flag-waving-icon-64.png alt="changeLanguageToSpanish" class="d-inline-block">
+        </li>
+        <li class="nav-item">
+          <a class="nav-link active d-inline-block" href="../spanish/indexspanish.html">SP</a>
+        </li>
+        <li class="nav-item">
+          <img src="../images/united-states-of-america-flag-waving-icon-64.png" alt="changeLanguageToEnglish" class="d-inline-block">
+        </li>
+        <li class="nav-item">
+          <a class="nav-link d-inline-block" href="#">EN</a>
+        </li>
+      </ul>
+    </nav>
+    <!-- Adding principal navbar and hide when the browser is smaller -->
+    <ul class="nav justify-content-center col-md-9 mainContent">
+      <li class="nav-item">
+        <a class="nav-link active" href="../documentation/documentation.html">Important documentation</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link active" href="#">|</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="../transport/transport.html">Public transport</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link active" href="#">|</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="../neighborhoods/neighborhoods.html">Neighborhoods</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link active" href="#">|</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="supermarkets.html">Supermarkets</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link active" href="#">|</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="../weather/weather.html">Weather</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link active" href="#">|</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="../touristPlaces/touristPlaces.html">Places of interest</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link active" href="#">|</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="../exchange/exchange.html">Exchange</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link active" href="#">|</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="../restaurants/restaurants.html">Restaurants</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link active" href="#">|</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="../holidays/holidays.html">Holidays</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link active" href="#">|</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="../nightLife/nightlife.html">Night Life</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link active" href="#">|</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="../shopping/shopping.html">Shopping</a>
+      </li>
+    </ul>
+  </header>
+  <!-- Important content -->
+  <div class="row">
+    <section class="additionalInformation col-md-3">
+      <!-- Creating aside with interesting links -->
+      <div class="list-group">
+        <a href="#safeway" class="list-group-item list-group-item-action">Safeway</a>
+        <a href="#traderJoes" class="list-group-item list-group-item-action">Trader Joe's</a>
+        <a href="#sevenEleven" class="list-group-item list-group-item-action">7-Eleven</a>
+        <a href="#wallgreensPharmacy" class="list-group-item list-group-item-action">Wallgreens & Pharmacy</a>
+        <a href="#wholeFoods" class="list-group-item list-group-item-action">Whole Foods</a>
+        <a href="#groceryOutlet" class="list-group-item list-group-item-action">Grocery Outlet</a>
+      </div>
+    </section>
+    <!-- Content -->
+    <section class="content col-md-9">
+      <h2>Where to do the grocery shopping<br>in San Francisco?</h2>
+      <article class="supermarketsInformation">San Francisco is a city with an extensive public transport network. Below we show you what are the public transport methods you will find in San Francisco.</article>
+      <div class="description col-md-12">
+        <div class="row contentTarget" id="safeway">
+          <div class="col-md-4">
+            <img src="images/safeway.jpg" alt="safeway" width="250" height="150">
+          </div>
+          <div class="safeway col-md-8">
+            <h4>Safeway</h4>
+            <p>Safeway is one of the most famous supermarkets in San Francisco. In it you can find a variety of products and brands with good value for money.<br>It is important that you take out the customer card before buying, since with them you will receive many discounts when you have to pay.</p>
+          </div>
+        </div>
+        <div class="row contentTarget" id="traderJoes">
+          <div class="traderJoes col-md-8">
+            <h4>Trader Joe's</h4>
+            <p>Trader Joe's is a neighborhood grocery store with amazing food and drink from around the globe and around the corner. Great quality at great prices. All their products are fresh and with their own brand.</p>
+          </div>
+          <div class="col-md-4">
+            <img src="images/traderJoes.jpg" alt="traderJoes" width="250" height="150">
+          </div>
+        </div>
+        <div class="row contentTarget" id="sevenEleven">
+          <div class="col-md-4">
+            <img src="images/sevenEleven.png" alt="sevenEleven" width="250" height="150">
+          </div>
+          <div class="sevenEleven col-md-8">
+            <h4>7-Eleven</h4>
+            <p>7-Eleven is your go-to convenience store for food, snacks, hot and cold beverages, gas and so much more. Generally open 24 hours a day.</p>
+          </div>
+        </div>
+        <div class="row contentTarget" id="wallgreensPharmacy">
+          <div class="wallgreensPharmacy col-md-8">
+            <h4>Wallgreens & CVS Pharmacy</h4>
+            <p>Both have pharmacy service, health & wellness products, health information and photo services. in some they also sell basic food products and household products.<br>As in Safeway, it is ideal to register as a client so that the available discounts apply.</p>
+          </div>
+          <div class="col-md-4">
+            <img src="images/wallgreenspharmacy.jpg" alt="wallgreenspharmacy" width="250" height="150">
+          </div>
+        </div>
+        <div class="row contentTarget" id="wholeFoods">
+          <div class="col-md-4">
+            <img src="images/wholeFoods.jpeg" alt="wholeFoods" width="250" height="150">
+          </div>
+          <div class="wholeFoods col-md-8">
+            <h4>Whole Foods</h4>
+            <p>It's an American supermarket chain exclusively featuring foods without artificial preservatives, colors, flavors, sweeteners, etc. It's more expensive that the other supermarkets but the quality is exceptional.</p>
+          </div>
+        </div>
+        <div class="row contentTarget" id="groceryOutlet">
+          <div class="groceryOutlet col-md-8">
+            <h4>Grocery Outlet</h4>
+            <p>In this supermarket there is a variety of products with lower prices than the aforementioned supermarkets and even with Spanish products such as Bimbo, "La Española" olive oil, etc.<br>The only problem is that many times the expiration dates are very early, so you'll have to check it before eating.</p>
+          </div>
+          <div class="col-md-4">
+            <img src="images/groceryOutlet.jpg" alt="groceryOutlet" width="250" height="150">
+          </div>
+        </div>
+      </div>
+    </section>
+  </div>
+</div>
+  <footer>
+    <p class="love">Made with &hearts; by <a href="https://github.com/Itzi93" target="_blank">Itziar Ruiz</a>.</p>
+  </footer>
+
+  <!-- Adding jQuery -->
+  <script src="../vendor/jquery-3.2.1.min.js"></script>
+
+  <!-- Adding Bootstrap -->
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js" integrity="sha384-b/U6ypiBEHpOf/4+1nzFpr53nxSS+GLCkfwBdFNTxtclqqenISfwAzpKaMNFNmj4" crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/js/bootstrap.min.js" integrity="sha384-h0AbiXch4ZDo7tp9hKZ4TsHbi047NrKGLO3SEJAg45jXxnGIfYzk4Si90RDIqNm1" crossorigin="anonymous"></script>
+
+  <!-- Adding JS file -->
+  <script src="supermarkets.js"></script>
+</body>
+</html>

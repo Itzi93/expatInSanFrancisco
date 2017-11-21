@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Night Life - Expat in San Francisco</title>
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
+  <!-- CSS Night Life Stylesheet -->
+  <link rel="stylesheet" href="nightLife.css">
+  <!-- CSS Stylesheet -->
+  <link rel="stylesheet" href="../css/common.css">
+</head>
+<body>
+<div class="wrapper col-md-9">
+  <!-- Define the header -->
+  <header class="container headerFixed col-md-12">
+    <!-- Navbar with Bootstrap framework including logo and nav -->
+    <nav class="navbar navbar-light bg-light col-md-9 languagesNav">
+      <a class="navbar-brand" href="../index.html">
+        <img src="../images/spanish-flag.png" width="40" height="40" class="d-inline-block align-top" alt="spanishFlag">
+        <strong>Expat in San Francisco</strong>
+      </a>
+      <div class="btn-group hamburgerMenu">
+        <button type="button" class="btn btn-secondary dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+        <span class="glyphicon glyphicon-menu-hamburger">☰</span>
+        </button>
+        <div class="dropdown-menu dropdown-menu-right">
+          <button class="dropdown-item" type="button"><a href="../documentation/documentation.html">Important documentation</a></button>
+          <button class="dropdown-item" type="button"><a href="../neighborhoods/neighborhoods.html">Neighborhoods</a></button>
+          <button class="dropdown-item" type="button"><a href="../supermarkets/supermarkets.html">Supermarkets</a></button>
+          <button class="dropdown-item" type="button"><a href="../weather/weather.html">Weather</a></button>
+          <button class="dropdown-item" type="button"><a href="../touristPlaces/touristPlaces.html">Places of interest</a></button>
+          <button class="dropdown-item" type="button"><a href="../exchange/exchange.html">Exchange</a></button>
+          <button class="dropdown-item" type="button"><a href="../restaurants/restaurants.html">Restaurants</a></button>
+          <button class="dropdown-item" type="button"><a href="../holidays/holidays.html">Holidays</a></button>
+          <button class="dropdown-item" type="button"><a href="../transport/transport.html">Transport</a></button>
+          <button class="dropdown-item" type="button"><a href="../shopping/shopping.html">Shopping</a></button>
+        </div>
+      </div>
+      <ul class="nav justify-content-end topBarMenu">
+        <li class="nav-item">
+          <img src=../images/spain-flag-waving-icon-64.png alt="changeLanguageToSpanish" class="d-inline-block">
+        </li>
+        <li class="nav-item">
+          <a class="nav-link active d-inline-block" href="../spanish/indexspanish.html">SP</a>
+        </li>
+        <li class="nav-item">
+          <img src="../images/united-states-of-america-flag-waving-icon-64.png" alt="changeLanguageToEnglish" class="d-inline-block">
+        </li>
+        <li class="nav-item">
+          <a class="nav-link d-inline-block" href="#">EN</a>
+        </li>
+      </ul>
+    </nav>
+
+<!-- Adding principal navbar and hide when the browser is smaller -->
+    <ul class="nav justify-content-center col-md-9 mainContent">
+      <li class="nav-item">
+        <a class="nav-link active" href="../documentation/documentation.html">Important documentation</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link active" href="#">|</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="../transport/transport.html">Public transport</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link active" href="#">|</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="../neighborhoods/neighborhoods.html">Neighborhoods</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link active" href="#">|</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="../supermarkets/supermarkets.html">Supermarkets</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link active" href="#">|</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="../weather/weather.html">Weather</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link active" href="#">|</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="../touristPlaces/touristPlaces.html">Places of interest</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link active" href="#">|</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="../exchange/exchange.html">Exchange</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link active" href="#">|</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="../restaurants/restaurants.html">Restaurants</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link active" href="#">|</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="../holidays/holidays.html">Holidays</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link active" href="#">|</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="nightlife.html">Night Life</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link active" href="#">|</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="../shopping/shopping.html">Shopping</a>
+      </li>
+    </ul>
+  </header>
+<!-- Important content -->
+  <div class="row">
+    <section class="additionalInformation col-md-3">
+      <!-- Creating aside with interesting links -->
+      <div class="list-group">
+        <a href="#southOfMarket" class="list-group-item list-group-item-action">South Of Market</a>
+        <a href="#northBeach" class="list-group-item list-group-item-action">North Beach</a>
+        <a href="#unionSquare" class="list-group-item list-group-item-action">Union Square</a>
+        <a href="#castro" class="list-group-item list-group-item-action">Castro</a>
+        <a href="#marina" class="list-group-item list-group-item-action">Marina</a>
+      </div>
+    </section>
+
+    <section class="content col-md-9">
+      <h2>Night life<br>in San Francisco</h2>
+      <article class="nightLifeInformation">In San Francisco there are different areas where you can enjoy nightlife despite the fact that most of the premises close before 2.30 am.<br>We tell you what are the best places in the city to have a few drinks:</article>
+      <div class="description">
+        <div class="row contentTarget" id="southOfMarket">
+          <div class="col-md-4">
+            <img src="images/southmarket.jpeg" alt="southOfMarket" width="250" height="150">
+          </div>
+          <div class="shoutOfMarket col-md-8">
+            <h4>South of Market (SoMa)</h4>
+            <p>In South of Market (SoMa) you can find the most popular places in the city and it is one of the busiest areas at night. Almost all nightclubs and nightlife are located in this neighborhood, although depending on the time of year the popularity of the sites is changing.</p>
+          </div>
+        </div>
+        <div class="row contentTarget" id="northBeach">
+          <div class="northBeach col-md-8">
+            <h4>North Beach and Chinatown</h4>
+            <p>Along Columbus Avenue you can find a series of shops that stretch from Nort Beach to Chinatown, where you can enjoy interesting options for nightlife.</p>
+          </div>
+          <div class="col-md-4">
+            <img src="images/northbeach.jpg" alt="northBeach" width="250" height="150">
+          </div>
+        </div>
+        <div class="row contentTarget" id="unionSquare">
+          <div class="col-md-4">
+            <img src="images/unionSquare.jpeg" alt="unionSquare" width="250" height="150">
+          </div>
+          <div class="unionSquare col-md-8">
+            <h4>Union Square</h4>
+            <p>The atmosphere on the street is very lively and where you will find the best Irish bars in the city. You can also visit the San Francisco Theater District, which offers shows that have been brought from Broadway, and allow you to enjoy an evening of exquisite etiquette.</p>
+          </div>
+        </div>
+        <div class="row contentTarget" id="castro">
+          <div class="castro col-md-8">
+            <h4>Castro</h4>
+            <p>There are the best places of environment in the whole city. There are plenty of places to enjoy group karaoke, drag shows and authentic venues where you can enjoy dancing without any limits.</p>
+          </div>
+          <div class="col-md-4">
+            <img src="images/castro.jpeg" alt="castro" width="250" height="150">
+          </div>
+        </div>
+        <div class="row contentTarget" id="marina">
+          <div class="col-md-4">
+            <img src="images/marina.jpeg" alt="marina" width="250" height="150">
+          </div>
+          <div class="marina col-md-8">
+            <h4>Marina</h4>
+            <p>This is the most recommended neighborhood for soletes (heterosexuals) who travel to San Francisco with the desire to find the love of their lives or someone to spend a night of passion with. It is an area of luxury atmosphere with high standing establishments and clientele of all ages. A good place to spend a night of drinks in the most elegant way you can think of in San Francisco.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+  </div>
+</div>
+  <footer>
+    <p class="love">Made with &hearts; by <a href="https://github.com/Itzi93" target="_blank">Itziar Ruiz</a>.</p>
+  </footer>
+  <!-- Adding jQuery -->
+  <script src="../vendor/jquery-3.2.1.min.js"></script>
+
+  <!-- Adding Bootstrap -->
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js" integrity="sha384-b/U6ypiBEHpOf/4+1nzFpr53nxSS+GLCkfwBdFNTxtclqqenISfwAzpKaMNFNmj4" crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/js/bootstrap.min.js" integrity="sha384-h0AbiXch4ZDo7tp9hKZ4TsHbi047NrKGLO3SEJAg45jXxnGIfYzk4Si90RDIqNm1" crossorigin="anonymous"></script>
+
+  <!-- Adding JS file -->
+  <script src="nightlife.js"></script>
+</body>
+</html>
